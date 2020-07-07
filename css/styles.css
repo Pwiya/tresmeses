@@ -260,8 +260,15 @@ html,body {
 
 .mio img{
    border-radius: 10px;
-   width:400px;
-   height:400px;
+   width: 50%;
+   float: right;
+}
+
+.mio img:after{
+   border-radius: 10px;
+   content: "";
+   display: block;
+   padding-bottom: 100%;
    float: right;
 }
 
