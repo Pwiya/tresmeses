@@ -1,0 +1,284 @@
+* { padding: 0; margin: 0;}
+
+
+:root {
+   --primary-color:        #008493;
+   --secondary-color:          #e34234;
+   --dark-color:           #171819;
+   --about-bg-color:       #f9f9f9;
+
+   --gray-color:           #909090;
+   --link-color:           #404040;
+   --p-color:              #666262;
+
+   --base-font-family:     'Plain', sans-serif;
+   --font-weight-bold:     bold;
+   --font-weight-normal:   normal;
+   --font-weight-light:    300;
+   --font-weight-thin:     100;
+
+   --h1-font-size:         48px;
+   --h2-font-size:         36px;
+   --h3-font-size:         28px;
+   --h4-font-size:         24px;
+   --h5-font-size:         22px;
+   --h6-font-size:         22px;
+   --p-font-size:          18px;
+   --base-font-size:       16px;
+   --menu-font-size:       14px;
+
+   --border-radius-large:  100%;
+   --border-radius-small:  2px;
+}
+
+html,body {
+    margin: 0; 
+    background-color: var(--primary-color);
+   }
+
+#navbar { 
+   position: fixed;
+   top: 0;
+   width: 100%;
+   border: 0;
+   margin: 0;
+   background-color: black;
+   overflow: hidden;
+   z-index:2;
+   }
+
+#navbar a {
+   float: left;
+   text-align: center;
+   text-decoration: none;
+   font-family: Lobster;
+   font-size: 20px;
+   padding: 1em 1em 1em 1em; 
+   color: var(--secondary-color);
+   }
+
+#navbar a:hover { 
+   background-color: #1f2225;
+   color: white;
+   }
+
+#description {
+   position: relative;
+   font-family: Arial;
+   font-size: 40px;
+   color:white;
+   line-height: 60px;
+   margin:100px 20px 50px 20px;
+   font-weight: 800;
+}
+#intro {
+   position:relative;
+   top: 5px;
+   height: 30px;
+   border: 0;
+   margin: 0;
+   background-color: var(--primary-color);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+
+#firstpic {
+   position:relative;
+   top: 50px;
+   height: 600px;
+   border: 0;
+   margin: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#imgdsc {
+   position: relative;
+   float:bottom;
+   font-family: Arial;
+   font-size: 50px;
+   color:white;
+   line-height: 60px;
+   margin:100px 20px 50px 20px;
+   font-weight: 800;
+}
+
+
+#container{
+   display: inline-block;
+   text-align:center;
+   padding-right:100px;
+   padding-left:100px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+#sticky{
+   display: inline-block;
+   width: 400px;
+   height: 500px;
+   background-color:yellow;
+   box-shadow: 5px 5px;
+}
+
+#sticky img{
+   padding: 10px;
+   width: 380px;
+   height: 380px;
+}
+
+#sticky .note{
+   text-align: center;
+   font-family: Indie Flower;
+   font-size: 15px;
+   color:black;
+   font-weight: 600;
+   padding: 10px;
+}
+
+#basicimage{
+   display: inline-block;
+   text-align: center;
+   height: 400px;
+   width: 400px;
+   box-shadow: 5px 5px;
+   margin: 0 50px 0 0;
+}
+
+#container2{
+   display: inline-block;
+   text-align:center;
+   padding-right:20px;
+   padding-left:20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+#sticky2{
+   display: inline-block;
+   width: 300px;
+   height: 350px;
+   background-color:yellow;
+   box-shadow: 5px 5px;
+}
+
+#sticky2 img{
+   padding: 10px;
+   width: 280px;
+   height: 280px;
+}
+
+#sticky2 .note{
+   text-align: center;
+   font-family: Indie Flower;
+   font-size: 15px;
+   color:black;
+   font-weight: 600;
+   padding: 10px;
+}
+
+#trio{
+   display:inline-block;
+   widows: 33.3em;;
+   margin:0;
+   height: 400px;
+   margin:-120px 0px 0px 0px;
+}
+
+#genre{
+   display: inline-block;
+   text-align:center;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#album{
+   display: inline-block;
+   width: 320px;
+   height: 360px;
+   background-color:rgba(255,255,255,0.5);;
+   opacity: 0.9;
+   box-shadow: 5px 5px;
+   margin:50px;
+   border-radius:10px;
+}
+
+#album:hover{
+   opacity: 1;
+}
+
+#album a img{
+   padding: 10px 10px 0px 10px;
+   width: 300px;
+   height: 300px;
+}
+
+#album a .note{
+   text-align: center;
+   font-family: Balsamiq Sans;
+   font-size: 20px;
+   color:black;
+   font-weight: 600;
+   padding: 10px;
+}
+
+.pichk {
+   height: 850px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #descmusic{
+   position: relative;
+   font-family: Arial;
+   font-size: 40px;
+   color:white;
+   line-height: 60px;
+   padding-top:70px;
+   padding-bottom: 40px;
+   margin:20px 50px 20px;
+   font-weight: 800;
+}
+
+.mio{
+   position: relative;
+   padding:20px;
+   font-family: monospace;
+   font-size: 30px;
+   font-weight: 700;
+   color: whitesmoke;
+   display: inline-block;
+   position: relative;
+   height:100%;
+   overflow: auto;
+   margin:5% 10% 5% 10%;
+}
+
+.mio img{
+   border-radius: 10px;
+   width:40%;
+   height:40%;
+   float: right;
+}
+
+.intro {
+   margin-right: 50%;
+}
+
+.desci{
+   color: var(--primary-color);
+   background-color: black;
+   display: inline-block;
+   position: relative;
+   height:100%;
+   overflow: auto;
+   padding:20px;
+   font-family: monospace;
+   font-size: 30px;
+   font-weight: 700;
+}
